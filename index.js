@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 // Decrypt the data 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://frontend-iota-rouge-48.vercel.app',
 }))
 // allow requests from 5173 port
 
